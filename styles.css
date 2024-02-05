@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
 
 body {
-  --color-blue: rgb(157, 190, 255);
-  --color-blue-faded: rgba(157, 190, 255, 0.5);
-  --border-color: var(--color-blue);
-  --font-family: "Open Sans", sans-serif;
-  padding: 0;
+  padding: 10px;
   margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
 }
 
 *,
@@ -15,13 +15,32 @@ body {
   box-sizing: border-box;
 }
 
+#lill {
+  font-weight: 300;
+  font-family: "Montserrat";
+}
+
+#page-title {
+  --title-color: #222;
+  font-size: 20vw;
+  font-family: "Montserrat";
+  color: var(--title-color);
+  text-transform: capitalize;
+  margin: 0;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid var(--title-color);
+  line-height: 5rem;
+  font-weight: 700;
+}
+
 main {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
-  width: 100vw;
-  height: 100vh;
-  padding: 32px;
+  background-color: rgb(250, 245, 230);
+  width: 100%;
+  height: 100%;
+  padding: 16px;
 }
 
 .content-wrapper {
@@ -32,60 +51,10 @@ main {
   padding: 32px;
 }
 
-table {
-  flex: 1;
-  box-shadow: 0 0 0 10px var(--border-color);
-  border-collapse: collapse;
-  border-radius: 4px;
-  font-family: var(--font-family);
-  margin-left: 64px;
-}
-
-tr,
-th {
-  border-bottom: 1px solid var(--color-blue-faded);
-  font-family: var(--font-family);
-}
-
-td,
-th {
-  padding: 16px;
-  border-right: 1px solid var(--color-blue-faded);
-  font-family: var(--font-family);
-  background-color: #ffffff;
-  text-align: center;
-}
-
-tr:last-child,
-td:last-child {
-  border: none;
-}
-
-th:last-child {
-  border-right: none;
-}
-
-h1 {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 6rem;
-  color: rgb(51, 111, 255);
-}
-
-.line {
-  width: 100%;
-  height: 3px;
-  background-color: var(--color-blue);
-}
-
-.left {
-  max-width: 250px;
-}
-
 p {
-  color: rgb(51, 111, 255);
-  font-family: "Luckiest Guy", cursive;
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-  line-height: 1.5rem;
-  margin-top: 32px;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #888888;
+  margin: 8px 0px;
 }
