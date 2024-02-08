@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap");
 
 body {
   padding: 10px;
@@ -30,7 +30,6 @@ body {
   padding-bottom: 25px;
   margin-bottom: 25px;
   border-bottom: 3px solid var(--title-color);
-  line-height: 5rem;
   font-weight: 700;
 }
 
